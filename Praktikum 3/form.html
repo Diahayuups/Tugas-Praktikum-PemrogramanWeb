@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <style>
+        header {
+            font-size: larger;
+            font-style: oblique;
+            background-color: bisque;
+            padding: 20px 0 20px 0;
+            margin: 10px 0 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(181, 141, 219);
+            font-size: large;
+            padding: 10px 0 10px 0;
+            margin: 10px 0 10px 0;
+        }
+        article {
+            font-size: large;
+            padding: 20px 0 29px 0;
+            margin: 10px 0 10px 0;
+            float: left;
+            width: 40% ;
+        }
+        aside {
+            font-size: large;
+            background-color: blanchedalmond;
+            padding: 20px 0 20px 0;
+            margin: 10px 0 10px 0;
+            float: right;
+            width: 60% ;
+        }
+    </style>
+</head>
+<body>
+    <header>Pudii Store</header>
+    <nav> Selamat Datang! 
+        <a href="home">Home |</a>  
+        <a href="menu">Menu |</a>   
+        <a href="logout">Logout |</a>
+    </nav>
+    <form action="hasil.html">
+        <main>
+            <article> <h2>POCO X5 5g</h2>
+                <table>
+                    <tr>
+                        <td colspan="3"><img src="https://i02.appmifile.com/511_operatorx_operatorx_xm/02/02/2023/2746f98afd667dc9b90a4bc7595fa8dc.jpg?q=100" alt="pocox5" width="480"></td>
+                    </tr> 
+                    <tr> 
+                        <td><img src="https://i02.appmifile.com/mi-com-product/fly-birds/pc/poco-x5-5g/73a3223687eeae86b638d3c3c6a3ff7a.jpg" alt="blue" width="150"></td>
+                        <td><img src="https://i02.appmifile.com/827_operatorx_operatorx_xm/30/01/2023/0d61310056867bf00bf6f2ef809ba450.jpg" alt="green" width="150"></td>
+                        <td><img src="https://i02.appmifile.com/78_operatorx_operatorx_xm/30/01/2023/3a4456924aea9c36984380339f286721.jpg" alt="black" width="150"></td>
+                    </tr>
+                    <tr>
+                        <td>Blue</td>
+                        <td>Green</td>
+                        <td>Black</td>
+                    </tr>
+                </table>
+            </article>
+            <aside> <strong>Formulir</strong>
+                <br>
+                <br>
+                <label for="namaproduk">Nama produk:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="spesifikasi">Spesifikasi:</label>
+                <select>
+                    <option value="pilih">Pilih</option>
+                    <option value="6/128 gb">6/128 gb Rp. 3.500.000</option>
+                    <option value="8/256 gb">8/256 gb Rp. 3.800.000</option>
+                </select>
+                <br>
+                <p>Pilih Warna:</p>
+                <ol>
+                    <li><input type="radio" name="warna">Black</li>
+                    <li><input type="radio" name="warna">Blue</li>
+                    <li><input type="radio" name="warna">Green</li>
+                </ol>
+                <br>
+                <label for="namapemesan">Nama Pemesan:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="alamat">Alamat:</label>
+                <textarea name="alamat" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <label for="No.Telepon">No. Telepon:</label>
+                <input type="number">
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email">
+                <p><strong>Pembayaran</strong></p>
+                <label for="pembayaran">Melalui:</label>
+                <select name="pembayaran">
+                    <option value="Pilih">Pilih</option>
+                    <option value="Bank BRI">Bank BRI</option>
+                    <option value="Bank BNI">Bank BNI</option>
+                    <option value="Bank BTN">Bank BTN</option>
+                    <option value="Bank BCA">Bank BCA</option>
+                    <option value="Bank Mandiri">Bank Mandiri</option>
+                    <option value="DANA">DANA</option>
+                    <option value="Gopay">Gopay</option>
+                    <option value="OVO">OVO</option>
+                    <option value="Shopeepay">Shopeepay</option>
+                </select>
+                <br>
+                <br>
+                <label for="atasnama">Atas Nama:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="buktitf">Bukti Transfer:</label>
+                <input type="file" name="bukti tf">
+                <br>
+                <br>
+                <input type="checkbox"> Kirim ke No. Telepon
+                <input type="checkbox"> Kirim ke Email 
+                <br>
+                <br>
+                <input type="submit" value="Done">
+            </aside>
+        </main>         
+    </form>
+</body>
+</html>
