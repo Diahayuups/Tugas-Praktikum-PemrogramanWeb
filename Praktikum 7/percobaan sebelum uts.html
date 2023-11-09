@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Pegawai</title>
+</head>
+<body>
+    <h2>Form Entry Data Pegawai</h2>
+    <form action="uts.html">
+        <table>
+            <tr>
+                <td>
+                    <label for="nik">NIK :</label>
+                </td>
+                <td>
+                    <input type="text" name="nik" id="nik">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="tanggal">Tanggal Lahir :</label>
+                </td>
+                <td>
+                    <input type="date" name="tanggal" id="tanggal">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="alamat">Alamat :</label>
+                </td>
+                <td>
+                    <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="telepon">No. Telepon :</label>
+                </td>
+                <td>
+                    <input type="number" name="telepon" id="telepon">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="jabatan">Jabatan :</label>
+                </td>
+                <td>
+                    <select name="jabatan" id="jabatan">
+                        <option value="" selected disabled>Pilih Jabatan</option>
+                        <option value="Bos">Bos</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Staff">Staff</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                   <input type="submit" value="simpan" style="background-color: rgb(58, 89, 116);"/> 
+                   <input type="reset" value="reset" style="background-color: blanchedalmond;"/> 
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

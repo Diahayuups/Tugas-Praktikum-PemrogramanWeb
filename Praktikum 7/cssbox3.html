@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi CSS Box dan Positioning</title>
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+       .row1,
+       .row2 {
+            display: flex;
+            gap: 10px;
+       }
+
+       .row1-self {
+            background-color: rgb(151, 136, 113);
+            height: 100px;
+            flex-grow: 1;
+            border: 2px solid black;
+       }
+
+       .row1-love {
+            background-color: rgb(192, 150, 84);
+            height: 100px;
+            flex-grow: 3;
+            border: 2px solid black;
+       }
+
+       .row2-i {
+            background-color: rgb(162, 137, 98);
+            height: 400px;
+            flex-grow: 1;
+            border: 2px solid black;
+       }
+
+       .row2-l {
+            background-color: rgb(177, 156, 95);
+            height: 400px;
+            flex-grow: 2;
+            border: 2px solid black;
+       }
+
+       .row2-y {
+            background-color: rgb(227, 189, 131);
+            height: 400px;
+            flex-grow: 1;
+            border: 2px solid black;
+       }
+
+       .row3 {
+          background-color: rgb(111, 87, 56);
+          height: 100px;
+          flex-grow: 1;
+          border: 2px solid black;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <div class="row1-self"></div>
+            <div class="row1-love"></div>
+        </div>
+        <div class="row2">
+            <div class="row2-i"></div>
+            <div class="row2-l"></div>
+            <div class="row2-y"></div>
+        </div>
+        <div class="row3"></div>
+    </div>
+</body>
+</html>
