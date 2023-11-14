@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pemrograman Web 1</title>
+    <style>
+        nav {
+            float: right;
+        }
+
+        form {
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        textarea {
+            resize:none
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="url"] {
+            width: 70%;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="Diah Ayu Puspasari_0110223052_UTSFORM01.html">
+        <fieldset>
+            <nav>
+                <a href="">Home</a> >
+                <a href="">Admin</a> >
+                <a href="Diah Ayu Puspasari_0110223052_UTSFORM01.html">Kelola Mesjid</a>
+            </nav>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama Mesjid</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" id="nama"></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="kecamatan">Kecamatan</label></td>
+                    <td>:</td>
+                    <td>
+                        <select name="kecamatan" id="kecamatan">
+                            <option value="kecamatan">Beji</option>
+                         </select>
+                         <label for="kelurahan">Kelurahan :</label>
+                        <select name="kelurahan" id="kelurahan">
+                            <option value="kelurahan">Kukusan</option>
+                         </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td><label for="fasilitas">Deskripsi Fasilitas</label></td>
+                    <td>:</td>
+                    <td><textarea name="fasilitas" id="fasilitas" cols="70" rows="3"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="namadkm">Nama Pengurus DKM</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="namadkm" id="namadkm"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="no">No HP/Telpon</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="no" id="no"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="alamatweb">Alamat Web</label></td>
+                    <td>:</td>
+                    <td><input type="url" name="alamatweb" id="alamatweb"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="alamat">Alamat Lengkap</label></td>
+                    <td>:</td>
+                    <td><textarea name="alamat" id="alamat" cols="70" rows="3"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="garis">Latitude, Longitude</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="garis" id="garis"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Simpan">
+            <input type="submit" value="Update">
+            <input type="reset" value="Hapus">
+        </fieldset>
+    </form>
+</body>
+</html>
