@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 8</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+        }
+
+        nav {
+            flex-grow: 1;
+            background-color: rgb(189, 168, 130);
+            padding: 10px;
+        }
+
+        .ratakanan {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 6;
+        }
+
+        header {
+            background-color: rgb(227, 199, 157);
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: rgb(179, 151, 120);
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        .artikel {
+            flex-grow: 4;
+            display: flex;
+            flex-direction: row;
+        }
+
+        article {
+            flex-grow: 4;
+            padding: 10px;
+        }
+
+        aside {
+            background-color: rgb(215, 184, 140);
+            flex-grow: 1;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>Tampilan Nav</nav>
+        <div class="ratakanan">
+            <header>Tampilan Header</header>
+            <div class="artikel">
+                <article>Tampilan Article</article>
+                <aside>Tampilan Aside</aside>
+            </div>
+            <footer>Tampilan Footer</footer>
+        </div>
+    </div>
+</body>
+
+</html>
