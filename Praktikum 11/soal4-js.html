@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah 2 bilangan</title>
+</head>
+
+<body>
+    <h1>Menghitung Jumlah 2 bilangan</h1>
+    <label for="angka1"></label>
+    <input type="number" name="angka1" id="angka1" onchange="hitung()">
+    <p>+</p>
+    <label for="angka2"></label>
+    <input type="number" name="angka2" id="angka2" onchange="hitung()">
+    <p>=</p>
+    <input type="text" id="hasil" readonly>
+
+    <script>
+        function hitung() {
+            var ang1 = parseFloat(document.getElementById("angka1").value);
+            var ang2 = parseFloat(document.getElementById("angka2").value);
+
+            var hasilAkhir = ang1 + ang2;
+
+            document.getElementById("hasil").value = hasilAkhir;
+        }
+    </script>
+</body>
+
+</html>
